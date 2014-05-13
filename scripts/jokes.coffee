@@ -13,3 +13,6 @@ module.exports = (robot) ->
 
   robot.hear /does this work?/i, (msg) ->
     msg.send "Yes! Congratulations, Christopher. You're the best programmer!"
+
+  robot.hear /does this work? /i, (msg) ->
+    msg.send "Okay, we get it. You got me to say something. Great work. You can stop now."
