@@ -2,6 +2,9 @@ module.exports = (robot) ->
   robot.respond /what's for lunch?/, (msg) ->
     msg.send 'Salad.'
 
+  robot.hear /woop/, (msg) ->
+    msg.send 'https://dl.dropboxusercontent.com/u/3777/Gifs/woop.gif'
+
   robot.hear /gold/i, (msg) ->
     msg.send 'https://dl.dropboxusercontent.com/u/2182799/gold.jpg'
 
