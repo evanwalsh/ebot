@@ -13,9 +13,6 @@ module.exports = (robot) ->
 
   robot.hear /dirty bird/i, (msg) ->
     msg.send "https://dl.dropboxusercontent.com/u/3777/Images/oh-me.jpg"
-
-  robot.hear /does this work?/i, (msg) ->
-    msg.send "Yes! Congratulations, Christopher. You're the best programmer!"
-
-  robot.hear /Does this work?/i, (msg) ->
-    msg.send "Okay, we get it. You got me to say something. Great work. You can stop now."
+    
+  robot.hear /Finally/i, (msg) ->
+    msg.send "FINALLY"
