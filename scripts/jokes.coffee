@@ -18,5 +18,5 @@ module.exports = (robot) ->
     msg.send "FINALLY"
     
   robot.hear /stop/i, (msg) ->
-    msg.send "HAMMERTIME https://dl.dropboxusercontent.com/u/2182799/gifs/hammertime.gif"
+    msg.send "Stop? HAMMERTIME! https://dl.dropboxusercontent.com/u/2182799/gifs/hammertime.gif"
 
