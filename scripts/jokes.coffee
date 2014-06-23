@@ -13,10 +13,12 @@ module.exports = (robot) ->
 
   robot.hear /dirty bird/i, (msg) ->
     msg.send "https://dl.dropboxusercontent.com/u/3777/Images/oh-me.jpg"
-    
+
   robot.hear /Finally/i, (msg) ->
     msg.send "FINALLY"
-    
+
   robot.hear /stop/i, (msg) ->
     msg.send "Stop? HAMMERTIME! https://dl.dropboxusercontent.com/u/2182799/gifs/hammertime.gif"
 
+  robot.hear /email/i, (msg) ->
+    msg.send "Emails?"

@@ -36,5 +36,5 @@ hypeImages = [
 ]
 
 module.exports = (robot) ->
-  robot.respond /get hype/i, (msg) ->
+  robot.hear /hype/i, (msg) ->
     msg.send msg.random hypeImages
