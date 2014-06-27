@@ -7,15 +7,12 @@
   "lolz.coffee",
   "reddit-jokes.coffee",
   "reddit.coffee",
-<<<<<<< HEAD
-  "twss.coffee"
-=======
   "achewood.coffee",
   "buscemi.coffee",
   "do-it.coffee",
   "emoji-me.coffee",
   "xkcd.coffee",
   "which-do-you-prefer.coffee",
-  "urban.coffee"
->>>>>>> FETCH_HEAD
+  "urban.coffee",
+  "twss.coffee"
 ]
