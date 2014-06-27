@@ -6,5 +6,6 @@
   "cleverbot.coffee",
   "lolz.coffee",
   "reddit-jokes.coffee",
-  "reddit.coffee"
+  "reddit.coffee",
+  "twss.coffee"
 ]
