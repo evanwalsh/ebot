@@ -12,7 +12,7 @@ module.exports = (robot) ->
     msg.send 'I ate the bones.'
 
   robot.hear /dirty bird/i, (msg) ->
-    msg.send 'https://dl.dropboxusercontent.com/u/3777/Images/oh-me.jpg'
+    msg.send 'https://dl.dropboxusercontent.com/u/3777/Gifs/the-book/yes-i-know-that.gif'
 
   robot.hear /Finally/i, (msg) ->
     msg.send 'FINALLY'
