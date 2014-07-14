@@ -25,3 +25,6 @@ module.exports = (robot) ->
 
   robot.hear /junes/i, (msg) ->
     msg.send 'https://dl.dropboxusercontent.com/u/3777/Gifs/everyday-is-great-at-your-junes.gif'
+    
+  robot.hear /Shawn/i, (msg) ->
+    msg.send 'https://dl.dropboxusercontent.com/u/3777/Gifs/harvest/shawn/pillow.gif'
