@@ -15,4 +15,4 @@ module.exports = (robot) ->
     msg.send "That's what she said!"
 
   robot.hear /.*(sexual intercourse|penis|vagina)/i, (msg) ->
-    msg.send "I see no place for this 'joke' in our IRC channel."
+    msg.send "I see no place for this 'IRC' in our joke channel."
