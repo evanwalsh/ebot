@@ -12,7 +12,7 @@
 
 module.exports = (robot) ->
   robot.hear /.*(big|small|long|hard|soft|fast|slow|wet|dry|suck|blow|jaw|all in|fit that|fit it|hurts|hot|huge|balls)/i, (msg) ->
-    msg.send "That's what she said!"
+    msg.send "That's what Tooting Boy said!"
 
   robot.hear /.*(sexual intercourse|penis|vagina)/i, (msg) ->
-    msg.send "I see no place for this 'IRC' in our joke channel."
+    msg.send "Tooting Boy sees no place for this 'IRC' in our fart channel."
