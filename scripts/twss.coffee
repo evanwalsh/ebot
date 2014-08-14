@@ -11,7 +11,7 @@
 #   dhchow
 
 module.exports = (robot) ->
-  robot.hear /.*(big|small|long|hard|soft|fast|slow|wet|dry|suck|blow|jaw|all in|fit that|fit it|hurts|hot|huge|balls)/i, (msg) ->
+  robot.hear /.*\b(big|small|long|hard|soft|fast|slow|wet|dry|suck|blow|jaw|all in|fit that|fit it|hurts|hot|huge|balls)\b.*/i, (msg) ->
     msg.send "That's what Tooting Boy said!"
 
   robot.hear /.*(sexual intercourse|penis|vagina)/i, (msg) ->
