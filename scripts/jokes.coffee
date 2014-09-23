@@ -30,4 +30,4 @@ module.exports = (robot) ->
     msg.send 'https://dl.dropboxusercontent.com/u/2182799/gifs/anime.gif'
 
   robot.hear /klonopin/i, (msg) ->
-    msg.send 'Don't do drugs.'
+    msg.send "Don't do drugs."
