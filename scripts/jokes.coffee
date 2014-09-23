@@ -31,3 +31,7 @@ module.exports = (robot) ->
 
   robot.hear /klonopin/i, (msg) ->
     msg.send "Don't do drugs."
+
+  robot.hear /jacket/i, (msg) ->
+    msg.send "Oooooh Stylish!"
+    msg.send "Oooooh Wokkaman!"
