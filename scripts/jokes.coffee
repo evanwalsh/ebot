@@ -29,7 +29,7 @@ module.exports = (robot) ->
   robot.hear /anime/i, (msg) ->
     msg.send 'https://dl.dropboxusercontent.com/u/2182799/gifs/anime.gif'
 
-  robot.hear /klonopin/i, (msg) ->
+  robot.hear /klonopin|pill|tylenol|motrin|ibuprofen|acetaminophen|drug|advil/i, (msg) ->
     msg.send "Don't do drugs."
 
   robot.hear /jacket/i, (msg) ->
