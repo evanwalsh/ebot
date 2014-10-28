@@ -1,1 +1,1 @@
-web: bin/hubot -a irc -n e
+web: bin/hubot --adapter irc --name e --alias "!"
