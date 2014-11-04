@@ -1,1 +1,1 @@
-web: bin/hubot --adapter irc --name e --alias "!"
+web: bin/hubot --adapter slack --name e --alias "!"
