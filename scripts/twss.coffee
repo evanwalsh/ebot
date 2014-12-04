@@ -12,7 +12,7 @@
 
 module.exports = (robot) ->
   robot.hear /.*\b(big|small|long|hard|soft|fast|slow|wet|dry|suck|blow|jaw|all in|fit that|fit it|hurts|hot|huge|balls)\b.*/i, (msg) ->
-    msg.send "That's what Tooting Boy said!"
+    msg.send "That word can also be used in a sexual context!"
 
-  robot.hear /.*(sexual intercourse|penis|vagina)/i, (msg) ->
-    msg.send "Tooting Boy sees no place for this 'IRC' in our fart channel."
+  robot.hear /.*(penis|vagina)/i, (msg) ->
+    msg.send "That can be used for sexual intercourse."
