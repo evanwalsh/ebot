@@ -36,6 +36,6 @@ module.exports = (robot) ->
     msg.send "Oooooh Stylish!"
     msg.send "Oooooh Wokkaman!"
 
-  robot.her /jeek/i, (msg) ->
-  	msg.send "https://vine.co/v/h0QlB2L2n3F"
-  	msg.send "I'm a real jeek."
+  robot.hear /jeek/i, (msg) ->
+    msg.send "https://vine.co/v/h0QlB2L2n3F"
+    msg.send "I'm a real jeek."
