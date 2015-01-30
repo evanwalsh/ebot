@@ -1,11 +1,11 @@
 module.exports = (robot) ->
-  robot.respond /what's for lunch?/, (msg) ->
+  robot.respond /what's for lunch?/i, (msg) ->
     msg.send 'Salad.'
 
   robot.hear /woop/, (msg) ->
     msg.send 'https://dl.dropboxusercontent.com/u/3777/Gifs/woop.gif'
 
-  robot.hear /gold/i, (msg) ->
+  robot.hear /\bgold\b/i, (msg) ->
     msg.send 'https://dl.dropboxusercontent.com/u/2182799/gold.jpg'
 
   robot.hear /bones/i, (msg) ->
@@ -23,19 +23,19 @@ module.exports = (robot) ->
   robot.hear /junes/i, (msg) ->
     msg.send 'https://dl.dropboxusercontent.com/u/3777/Gifs/everyday-is-great-at-your-junes.gif'
 
-  robot.hear /Shawn/i, (msg) ->
+  robot.hear /\bshawn\b/i, (msg) ->
     msg.send 'https://dl.dropboxusercontent.com/u/3777/Gifs/harvest/shawn/pillow.gif'
 
   robot.hear /anime/i, (msg) ->
     msg.send 'https://dl.dropboxusercontent.com/u/2182799/gifs/anime.gif'
 
-  robot.hear /klonopin|pill|tylenol|motrin|ibuprofen|acetaminophen|drug|advil/i, (msg) ->
+  robot.hear /\bklonopin|pill|tylenol|motrin|ibuprofen|acetaminophen|drug|advil\b/i, (msg) ->
     msg.send "Don't do drugs."
 
-  robot.hear /jacket/i, (msg) ->
+  robot.hear /\bjacket\b/i, (msg) ->
     msg.send "Oooooh Stylish!"
     msg.send "Oooooh Wokkaman!"
 
-  robot.hear /jeek/i, (msg) ->
+  robot.hear /\bjeek\b/i, (msg) ->
     msg.send "https://vine.co/v/h0QlB2L2n3F"
     msg.send "I'm a real jeek."
