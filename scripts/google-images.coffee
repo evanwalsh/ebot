@@ -27,8 +27,8 @@ module.exports = (robot) ->
       imageMe msg, imagery, false, true, (url) ->
         msg.send "#{mustachify}#{url}"
 
-  robot.on 'imageMe', (options) ->
-    imageMe options.msg, options.query, (url) ->
+  robot.on 'imageMe', (msg, query) ->
+    imageMe msg, query, (url) ->
       msg.send url
 
 imageMe = (msg, query, animated, faces, cb) ->
