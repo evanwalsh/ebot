@@ -1,6 +1,7 @@
 module.exports = (robot) ->
   robot.respond /what's for lunch?/i, (msg) ->
-    msg.send 'Salad.'
+    # msg.send 'Salad.'
+    msg.send 'The Cinnamon Snail.'
 
   robot.hear /woop/, (msg) ->
     msg.send 'https://dl.dropboxusercontent.com/u/3777/Gifs/woop.gif'
@@ -34,5 +35,5 @@ module.exports = (robot) ->
     msg.send "Oooooh Wokkaman!"
 
   robot.hear /\bjeek\b/i, (msg) ->
-    msg.send "https://vine.co/v/h0QlB2L2n3F"
+    msg.send "https://youtu.be/EQ1HanRqiHM"
     msg.send "I'm a real jeek."
