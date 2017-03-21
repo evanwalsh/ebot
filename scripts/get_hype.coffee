@@ -35,6 +35,6 @@ hypeImages = [
   evanGif("hey-ash-tongue")
 ]
 
-module.exports = (robot) ->
-  robot.hear /hype/i, (msg) ->
-    msg.send msg.random hypeImages
+# module.exports = (robot) ->
+#   robot.hear /hype/i, (msg) ->
+#     msg.send msg.random hypeImages
